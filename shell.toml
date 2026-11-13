@@ -1,0 +1,143 @@
+# macOS Tahoe Light — Liquid Glass surfaces for the Omarchy shell.
+
+[bar]
+# The menu bar is see-through in Tahoe; shell.json sets background = "none",
+# and the shell picks light/dark text from the wallpaper underneath.
+background       = "#1e1e1e"
+background-alpha = 0.0
+text             = "#ffffff"
+active           = "#ff3b30"
+scale-with-font  = false
+size-horizontal  = 26
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgba(ffffff2e)"
+active-border-foreground = "rgba(ffffff2e)"
+
+[controls]
+normal-color        = "#000000"
+normal-fill-alpha   = 0.08
+normal-border       = "#000000"
+normal-border-width = 0
+normal-border-alpha = 0.0
+
+hover-cursor-color        = "#000000"
+hover-cursor-fill-alpha   = 0.12
+hover-cursor-border       = "#000000"
+hover-cursor-border-width = 0
+hover-cursor-border-alpha = 0.0
+
+focus-color        = "#007aff"
+focus-fill-alpha   = 0.12
+focus-border       = "#007aff"
+focus-border-width = 1
+focus-border-alpha = 0.8
+
+selected-color        = "#007aff"
+selected-fill-alpha   = 0.85
+selected-border       = "#007aff"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.2
+selection-fill-alpha = 0.45
+
+[spacing]
+scale = 1.1
+scale-with-font = false
+control-height    = 30
+popup-row-height  = 30
+row-padding-x     = 12
+popup-padding     = 14
+panel-padding     = 16
+
+[font]
+base-size = 13
+
+[popups]
+# Control Center / menu-extra cards: dark frosted glass with a hairline rim.
+background       = "#f6f6f8"
+background-alpha = 0.72
+text             = "#1d1d1f"
+border           = "#000000"
+border-alpha     = 0.10
+border-width     = 1
+
+[tooltip]
+background       = "#ffffff"
+background-alpha = 0.92
+text             = "#1d1d1f"
+border           = "#000000"
+border-alpha     = 0.10
+
+[notifications]
+background       = "#f6f6f8"
+background-alpha = 0.74
+text             = "#1d1d1f"
+border           = "#000000"
+border-alpha     = 0.10
+border-width     = 1
+countdown        = "#007aff"
+
+[launcher]
+# Spotlight: floating glass bar, no dimmed backdrop.
+background                = "#f6f6f8"
+background-alpha          = 0.74
+text                      = "#1d1d1f"
+border                    = "#000000"
+border-alpha              = 0.10
+scrim                     = "#000000"
+scrim-alpha               = 0.0
+selected-background       = "#007aff"
+selected-background-alpha = 0.9
+selected-text             = "#ffffff"
+selected-border           = "#007aff"
+selected-border-alpha     = 0.0
+
+[menu]
+background                = "#f6f6f8"
+background-alpha          = 0.74
+text                      = "#1d1d1f"
+border                    = "#000000"
+border-alpha              = 0.10
+scrim                     = "#000000"
+scrim-alpha               = 0.0
+selected-background       = "#007aff"
+selected-background-alpha = 0.9
+selected-text             = "#ffffff"
+selected-border           = "#007aff"
+selected-border-alpha     = 0.0
+
+[polkit]
+background       = "#f6f6f8"
+background-alpha = 0.85
+text             = "#1d1d1f"
+text-error       = "#ff3b30"
+border           = "#000000"
+border-error     = "#ff3b30"
+border-alpha     = 0.10
+scrim            = "#000000"
+scrim-alpha      = 0.2
+accent           = "#007aff"
+
+[lock]
+# Lock screen: frosted pill password field.
+background       = "#ffffff"
+background-alpha = 0.55
+text             = "#1d1d1f"
+placeholder      = "#6e6e73"
+text-error       = "#ff3b30"
+border           = "#ffffff"
+border-active    = "#ffffff"
+border-error     = "#ff3b30"
+border-alpha     = 0.25
+selection        = "#007aff"
+selection-alpha  = 0.45
+
+[image-picker]
+text                    = "#1d1d1f"
+selected-border         = "#007aff"
+selected-border-alpha   = 1.0
+unselected-border       = "#000000"
+unselected-border-alpha = 0.25
