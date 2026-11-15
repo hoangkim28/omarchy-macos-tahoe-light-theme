@@ -3,9 +3,9 @@
 [bar]
 # The menu bar is see-through in Tahoe; shell.json sets background = "none",
 # and the shell picks light/dark text from the wallpaper underneath.
-background       = "#1e1e1e"
+background       = "#f5f5f7"
 background-alpha = 0.0
-text             = "#ffffff"
+text             = "#1d1d1f"
 active           = "#ff3b30"
 scale-with-font  = false
 size-horizontal  = 26
