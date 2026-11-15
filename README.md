@@ -21,7 +21,7 @@ The theme sets the `WhiteSur` icon theme.
 
 ## Wallpaper
 
-An original abstract wallpaper is included. Apple's macOS Tahoe wallpapers are not, because they are Apple's copyrighted work. Download the official *macOS Tahoe 26* light wallpaper yourself and put it in `~/.config/omarchy/backgrounds/macos-tahoe-light/`.
+An original wallpaper, "Tahoe Day", is included: layered glassy waves generated for this theme. Apple's macOS Tahoe wallpapers are not, because they are Apple's copyrighted work. Download the official *macOS Tahoe 26* light wallpaper yourself and put it in `~/.config/omarchy/backgrounds/macos-tahoe-light/`.
 
 ## The macOS window look
 
